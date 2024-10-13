@@ -1,0 +1,6 @@
+@PrivateButlerAPI_HostAddress = http://localhost:5120
+
+GET {{PrivateButlerAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
