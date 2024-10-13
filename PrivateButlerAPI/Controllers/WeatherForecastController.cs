@@ -29,5 +29,11 @@ namespace PrivateButlerAPI.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet(Name = "Test")]
+        public ActionResult Test()
+        {
+            return Ok("Test");
+        }
     }
 }
